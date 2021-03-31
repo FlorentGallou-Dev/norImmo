@@ -86,6 +86,50 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   :root {
+     --fond : #273144;
+     --text : #1F2736;
+   }
+
+   /*FONTS*/
+   h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+   }
+   p, span, li, figcaption, a{
+    font-family: 'Raleway', sans-serif;
+   }
+
+   /*BODY*/
+   body{
+     background-color: var(--fond);
+     color: #fff;
+   }
+
+   /*NAV*/
+   .navbar-light .navbar-nav .nav-link.active{
+     color: var(--text);
+   }
+   .navbar-light .navbar-nav .nav-link.active:hover, footer a:hover{
+    color: rgb(227,23,30);
+  }
+
+   /*FOOTER*/
+   footer{
+    background-color: var(--text);
+    color: #fff;
+   }
+   footer .navFooter{
+     display: flex;
+     flex-direction: row;
+     justify-content: end;
+     list-style: none;
+     flex-wrap: wrap;
+   }
+   footer a{
+     color: #fff;
+   }
+
+
 
 /* ==========================================================================
    Helper classes
