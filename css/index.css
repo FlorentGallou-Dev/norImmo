@@ -1,0 +1,101 @@
+* {box-sizing:border-box}
+
+a {
+    text-decoration: none;
+}
+
+/* Carousel container */
+.carousel-container {
+    max-width: 70vw;
+    position: relative;
+    margin: auto;
+}
+
+.housesPic {
+    width: 100%;
+}
+
+/* Buttons to change slide */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+/* Add background with light opacity on hover */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+    position: absolute;
+    bottom: 0.5em;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Current slide number */
+.numbertext {
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+
+/* Indicators under the slideshow */
+.indicators {
+    text-align: center;
+}
+
+.indic {
+    cursor: pointer;
+    height: 10px;
+    width: 25px;
+    margin: 0 2px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 2px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+/* NOT WORKING SINCE ADDING BACKGROUND TO CURRENT SLIDE VIA JS
+.indic:hover {
+    background-color: #505050;
+} */
+
+/* Fading animation */
+.fading {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards; 
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
