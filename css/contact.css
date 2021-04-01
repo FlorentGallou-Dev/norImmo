@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+}
+
+.bg-sombre{
+    background-color: var(--fond);
+}
+
+.text-sombre{
+    color: var(--fond);
+}
+
+.text-red{
+    color: var(--rouge);
+}
+
+.form-check-input:checked {
+    background-color: var(--rouge);
+    border-color: var(--rouge);
+}
+
+.btn-red {
+    color: #fff;
+    background-color: var(--rouge);
+    border-color: var(--rouge);
+}
+.btn-red:hover {
+    color: #fff;
+    background-color: #9b1115;
+    border-color: #9b1115;
+}
+
+.fitContent{
+    width : fit-content;
+}

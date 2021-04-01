@@ -107,6 +107,9 @@ textarea {
    }
 
    /*NAV*/
+   nav{
+    border-bottom: 2px solid red;
+   }
    .navbar-light .navbar-nav .nav-link.active{
      color: var(--text);
    }

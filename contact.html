@@ -59,7 +59,79 @@
   </nav>
 
   <main class="p-5">
-    
+    <div class="row justify-content-center">
+      <h1 class="text-sombre text-uppercase">Contactez NorImmo</h1>
+      <article class="col-12 col-xl-9 mb-5">
+        <h2 class="text-sombre text-uppercase text-center pb-5">Nos informations</h2>
+        <div class="row text-center">
+          <div class="col-12 col-md-6 col-lg-3 bg-sombre p-5">
+            <h3>Téléphone</h3>
+            <hr>
+            <p class="text-red fw-bold">08 12 14 42 69</p>
+          </div>
+          <div class="ol-12 col-md-6 col-lg-3 bg-sombre p-5">
+            <h3>Fax</h3>
+            <hr>
+            <p class="text-red fw-bold">08 12 14 42 23</p>
+          </div>
+          <div class="ol-12 col-md-6 col-lg-3 bg-sombre p-5">
+            <h3>Email</h3>
+            <hr>
+            <p class="text-red fw-bold">contact@norimmo.fr</p>
+          </div>
+          <div class="ol-12 col-md-6 col-lg-3 bg-sombre p-5">
+            <h3>Adresse</h3>
+            <hr>
+            <p class="text-red fw-bold">2 Place Mantoue<br>02200 Soissons</p>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 mb-5">
+        <h2 class="text-sombre text-uppercase text-center  pb-5">Nous envoyer un message</h2>
+        <div class="row">
+          <form action="" class="col-12 col-lg-6 m-auto">
+            <div class="input-group mb-3">
+              <span class="input-group-text text-white bg-sombre" id="firstName">Votre prénom</span>
+              <input type="text" class="form-control text-sombre" aria-label="Votre prénom" aria-describedby="saisissez votre prénom" id="firstNameInput">
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text  text-white bg-sombre" id="lastName">Votre nom</span>
+              <input type="text" class="form-control text-sombre" aria-label="Votre nom" aria-describedby="saisissez votre nom" id="lastNameInput">
+            </div>
+            <div class="input-group mb-5">
+              <span class="input-group-text  text-white bg-sombre" id="phone">Votre téléphone</span>
+              <input type="tel" class="form-control text-sombre" aria-label="Votre téléphone" aria-describedby="saisissez votre téléphone" id="phoneInput">
+            </div>
+            <div class="row mb-5">
+              <span class="input-group-text justify-content-center  text-white bg-sombre col-12 mb-3" id="reason">Motif du message</span>
+              <div class="row col-12">
+                <div class="col-12 col-md-4 text-center">
+                  <input class="form-check-input text-sombre" type="radio" name="reason" id="reason1" value="estimate" aria-describedby="raison choix multiple estimer">
+                  <label class="form-check-label text-sombre" for="estimate">Devis</label>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                  <input class="form-check-input text-sombre" type="radio" name="reason" id="reason2" value="information" aria-describedby="raison choix multiple information">
+                  <label class="form-check-label text-sombre" for="information">Informations</label>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                  <input class="form-check-input text-sombre" type="radio" name="reason" id="reason3" value="claim" aria-describedby="raison choix multiple réclamation">
+                  <label class="form-check-label text-sombre" for="claim">Réclamations</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-group mb-5">
+              <span class="input-group-text  text-white bg-sombre">Message</span>
+              <textarea class="form-control text-sombre" aria-label="Votre message" id="messageInput"></textarea>
+              <div class="row col-12 text-sombre justify-content-end">
+                <p class="fitContent text-end px-1" id="countZone"></p>
+                <p class="fitContent px-1">/ 400</p>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-red col-12" aria-describedby="bouton envoyer">Envoyer</button>
+          </form>
+        </div>
+      </article>
+    </div>
   </main>
 
   <footer class="py-3">
