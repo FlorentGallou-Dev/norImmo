@@ -4,6 +4,12 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
 /* Carousel container */
 .carousel-container {
     max-width: 70vw;
@@ -52,7 +58,7 @@ a {
 }
 
 /* Current slide number */
-.numbertext {
+.slideNumber {
     color: white;
     font-size: 1em;
     position: absolute;
