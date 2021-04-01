@@ -89,6 +89,7 @@ textarea {
    :root {
      --fond : #273144;
      --text : #1F2736;
+     --rouge : #e3171e;
    }
 
    /*FONTS*/
@@ -110,7 +111,7 @@ textarea {
      color: var(--text);
    }
    .navbar-light .navbar-nav .nav-link.active:hover, footer a:hover{
-    color: rgb(227,23,30);
+    color: var(--rouge);
   }
 
    /*FOOTER*/
