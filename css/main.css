@@ -99,7 +99,9 @@ textarea {
    p, span, li, figcaption, a{
     font-family: 'Raleway', sans-serif;
    }
-
+   h1{
+    font-size: 3em;
+   }
    /*BODY*/
    body{
      background-color: var(--fond);

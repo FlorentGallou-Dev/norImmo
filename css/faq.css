@@ -1,0 +1,20 @@
+body{
+    background-color: white;
+}
+
+.text-sombre{
+    color: var(--fond);
+}
+
+.faqTitle{
+    background-color: var(--text);
+}
+
+.faqRep{
+    background-color: #fff;
+    color: var(--text);
+    overflow: hidden;
+    height: 0;
+    padding: 0;
+    border: 1px solid var(--fond);
+}
