@@ -33,3 +33,7 @@ body{
 .fitContent{
     width : fit-content;
 }
+
+h1{
+    font-size: 3em;
+}
